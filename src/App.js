@@ -1,19 +1,22 @@
 import logo from './logo.svg';
-import './App.css';
+// import './App.css';
+import TodoFeature from './features/Todo';
 
 function App() {
 
-  const name = "Bảo";
-  const age = 21;
-  const isMale = true;
-  const student = {
-    name: "Easy Frontend"
-  };
-  const colorList = ["red", "green", "blue"];
+  // const name = "Bảo";
+  // const age = 21;
+  // const isMale = true;
+  // const student = {
+  //   name: "Easy Frontend"
+  // };
+  // const colorList = ["red", "green", "blue"];
 
   return (
     <div className="App">
-      <header className="App-header">
+      <TodoFeature />
+
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Hoai Bao
@@ -42,7 +45,7 @@ function App() {
           })}
         </ul>
 
-      </header>
+      </header> */}
     </div>
   );
 }
