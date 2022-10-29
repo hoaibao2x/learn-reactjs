@@ -15,8 +15,8 @@ function App() {
 
   return (
     <div className="App">
-      <AlbumFeature />
-      {/* <TodoFeature /> */}
+      {/* <AlbumFeature /> */}
+      <TodoFeature />
 
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
